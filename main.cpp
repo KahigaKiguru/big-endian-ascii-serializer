@@ -25,6 +25,7 @@ string hexToAscii(string hex){
         char hex_substr_base16_char =  stoul(hex_substr, nullptr, 16);
 
         hex_ascii += hex_substr_base16_char;
+        
     }
 
     return hex_ascii;
